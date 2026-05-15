@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Country Overdue Debt",
+  "slug": "ctgov-country-overdue-debt",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which country-linked CT.gov portfolios carry the deepest unresolved overdue years once the two-year results deadline is converted into debt rather than counts? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded named-country links. We summed unresolved years beyond the two-year mark across country-linked portfolios with at least 500 linked studies, then compared that debt with missing-results stock and mean unresolved age. The United States carried the largest country-linked overdue-debt stock at 491,364 unresolved years, followed by Canada at 90,480, France at 89,004, and Germany at 77,270. Germany carried the heaviest large-country mean unresolved age at 9.4 years, while the United States remained singular on debt stock because of scale. The geography of chronic silence looks different from rate tables alone, combining very large North American and European portfolios with substantial unresolved stock. Country-linked overdue debt counts country-linked studies rather than assigning each multinational record to one national portfolio.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which country-linked CT.gov portfolios carry the deepest unresolved overdue years once the two-year results deadline is converted into debt rather than counts?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded named-country links."
+    },
+    {
+      "role": "Method",
+      "text": "We summed unresolved years beyond the two-year mark across country-linked portfolios with at least 500 linked studies, then compared that debt with missing-results stock and mean unresolved age."
+    },
+    {
+      "role": "Primary result",
+      "text": "The United States carried the largest country-linked overdue-debt stock at 491,364 unresolved years, followed by Canada at 90,480, France at 89,004, and Germany at 77,270."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Germany carried the heaviest large-country mean unresolved age at 9.4 years, while the United States remained singular on debt stock because of scale."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The geography of chronic silence looks different from rate tables alone, combining very large North American and European portfolios with substantial unresolved stock."
+    },
+    {
+      "role": "Boundary",
+      "text": "Country-linked overdue debt counts country-linked studies rather than assigning each multinational record to one national portfolio."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Country Overdue Debt dashboard",
+    "data": "249,507 eligible older closed interventional studies exploded into country-linked portfolios with overdue debt fields",
+    "code": "https://github.com/mahmood726-cyber/ctgov-country-overdue-debt",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Total unresolved years beyond the two-year results mark across country-linked study portfolios with at least 500 studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
